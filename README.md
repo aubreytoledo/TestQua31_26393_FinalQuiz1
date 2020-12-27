@@ -9,7 +9,7 @@ Downloading of the files and Installation
 
 1. Download all the files on this repository to be able to access and install the application. Just download a zip file so that it is easier.
 2. Once you have downloaded it on your computer, make sure you have an Android Studio to be able to see and manipulate the code on the app as well as install it on your device.
-3. Open first Android Studio, and locate the folder entitled TestQua31_26393_FinalQuiz1-master and click it.
+3. Open first Android Studio, and locate the folder entitled ToledoAubrey_TestQua31-master, click dropdown and click the same filename with the android icon.
 
 Using the Application
 

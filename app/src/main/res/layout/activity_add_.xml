@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Add_Activity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_marginBottom="150dp"
+        android:outlineAmbientShadowColor="@color/colorAccent2"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/getPic"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/imageee" />
+
+        <EditText
+            android:id="@+id/inputName"
+            style="@style/CustomListStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="3dp"
+            android:drawableLeft="@drawable/entername"
+            android:drawablePadding="10sp"
+            android:fontFamily="monospace"
+            android:hint="Enter Name"
+            android:padding="12dp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/inputPhoneNum"
+            style="@style/CustomListStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/enternumber"
+            android:drawablePadding="10sp"
+            android:fontFamily="monospace"
+            android:textSize="15sp"
+            android:hint="Enter Phone Number"
+            android:inputType="number"
+            android:padding="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/btnOk"
+                    style="@style/CustomListStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/plus"></ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/btnCancel"
+                    style="@style/CustomListStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/eks"></ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

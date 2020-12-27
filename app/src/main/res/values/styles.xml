@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#4682B4</item>
+        <item name="colorPrimaryDark">#4682B4</item>
+        <item name="colorAccent">#fefefe</item>
+        <item name="layout_insetEdge">start</item>
+        <item name="dialogCornerRadius">20dp</item>
+        <item name="paddingBottomNoButtons">100dp</item>
+        <item name="thumbTextPadding">10dp</item>
+    </style>
+    <style name="CustomListStyle" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/rounded_corners</item>
+        <item name="android:color">@color/colorAccent</item>
+        <item name="android:colorBackgroundCacheHint">@color/colorAccent</item>
+    </style>
+    <style name="CustomStyle" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/rounded_corners</item>
+        <item name="android:color">@color/colorAccent2</item>
+        <item name="android:colorBackgroundCacheHint">@color/colorAccent2</item>
+    </style>
+
+</resources>
